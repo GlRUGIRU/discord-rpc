@@ -1,19 +1,20 @@
 # GURU GURU MESSAGE
 Hello, GURU GURU here... This is the source code to the modified discord-rpc.dll which will serve as the loader for DerpyMod :-D
 
-Build the dll or download the release, go to `steamapps\common\Mordhau\Mordhau\Plugins\DiscordRpc\Source\ThirdParty\DiscordRpcLibrary\Win64`, rename the old discord-rpc.dll, and place the new one here with the file name as `discord-rpc.dll`
+Build the dll or [download the release](https://github.com/GlRUGIRU/discord-rpc/releases/tag/v69), go to `steamapps\common\Mordhau\Mordhau\Plugins\DiscordRpc\Source\ThirdParty\DiscordRpcLibrary\Win64`, rename the old discord-rpc.dll, and place the new one here with the file name as `discord-rpc.dll`
 
 ## Build instructions
 1. Install CMake & Visual Studio.
 2. Open Developer PowerShell for VS <year>.
-3. Navigate to base `discord-rpc` folder (using cd).
-4. Enter `mkdir build`
-5. Enter `cd build`
-6. Run `cmake .. -DBUILD_SHARED_LIBS=ON`
-7. Navigate to build folder in file explorer, open up `DiscordRPC.sln`
-8. Set build configuration to `Release x64`.
-9. In solution explorer, right click on `discord-rpc` project and select Build.
-10. Dll will be in a folder like `build/src/Release` named `discord-rpc.dll`
+3. Clone this repo
+4. Navigate to base `discord-rpc` folder (using cd).
+5. Enter `mkdir build`
+6. Enter `cd build`
+7. Run `cmake .. -DBUILD_SHARED_LIBS=ON`
+8. Navigate to build folder in file explorer, open up `DiscordRPC.sln`
+9. Set build configuration to `Release x64`.
+10. In solution explorer, right click on `discord-rpc` project and select Build.
+11. Dll will be in a folder like `build/src/Release` named `discord-rpc.dll`
 
 # Discord RPC
 
