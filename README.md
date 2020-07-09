@@ -1,3 +1,8 @@
+# GURU GURU MESSAGE
+Hello, GURU GURU here... This is the source code to the modified discord-rpc.dll which will serve as the loader for DerpyMod :-D
+
+Build the dll or download the release, go to `steamapps\common\Mordhau\Mordhau\Plugins\DiscordRpc\Source\ThirdParty\DiscordRpcLibrary\Win64`, rename the old discord-rpc.dll, and place the new one here with the file name as `discord-rpc.dll`
+
 # Discord RPC
 
 ## Deprecation Notice
